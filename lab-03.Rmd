@@ -71,7 +71,7 @@ staff <- read_csv("data/instructional-staff.csv")
 ## Exercise 1
 
 What is the difference between *wide format* data and *long format* data?
-  Wide format is lots of different varibales and few observations. Long data is lots of observations and few variables.
+  Wide format is lots of different variables and few observations. Long data is lots of observations and few variables.
 
 
 Is the format `staff` data *wide* or *long*?
@@ -89,8 +89,8 @@ How many observations are there in the data set?
 ```{r pivoting}
 ## Uncomment and complete the following code
 
-#staff_long <- ___ %>%
-#  ___(
+#staff_long <- staff %>%
+#  (
 #    cols = ____, 
 #    names_to = "_____",
 #    values_to = "percent"
